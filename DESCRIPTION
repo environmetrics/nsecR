@@ -1,0 +1,20 @@
+Package: nsecR
+Title: No Significant Effect Concentration for ecotoxicology
+Version: 0.1.0
+Authors@R: c(
+    person("David", "Fox", email = "david.fox@ecotox.science", role = "cre"),
+    person("Posit Software, PBC", role = c("cph", "fnd")))
+Maintainer: David Fox <admin@ecotox.science>
+Description: Computes either a single NSEC or (if alternative models are specified) a model-averaged NSEC.
+Depends: R (>= 4.1)
+Imports: drc
+License: Apache License (== 2.0)
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-01-12 03:04:46 UTC; DavidFox
+Author: David Fox [cre],
+  Posit Software, PBC [cph, fnd]
